@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Pengelompokan Angka</title>
+</head>
+<body>
+    <h2>Hasil Pengelompokan Angka Acak</h2>
+    <ul>
+        {% for i, group in enumerate(groups) %}
+            <li><strong>Kelompok {{ i+1 }}:</strong> {{ group }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Kembali</a>
+</body>
+</html>

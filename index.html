@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Pengelompokan Angka Acak</title>
+</head>
+<body>
+    <h2>Program Pengelompokan Angka Acak</h2>
+    <form action="/result" method="post">
+        <label for="total_numbers">Jumlah angka yang akan ditampilkan:</label>
+        <input type="number" id="total_numbers" name="total_numbers" required><br><br>
+
+        <label for="num_groups">Jumlah kelompok angka:</label>
+        <input type="number" id="num_groups" name="num_groups" required><br><br>
+
+        <label for="num_range">Range angka maksimal (contoh: jika 50 maka angka diambil dari 1 hingga 50):</label>
+        <input type="number" id="num_range" name="num_range" required><br><br>
+
+        <input type="submit" value="Proses">
+    </form>
+</body>
+</html>
